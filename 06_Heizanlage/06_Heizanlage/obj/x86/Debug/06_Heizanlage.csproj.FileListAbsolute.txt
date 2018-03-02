@@ -15,3 +15,12 @@ H:\Eigene Dokumente\Visual Studio 2010\Forms\06_Heizanlage\06_Heizanlage\obj\x86
 H:\Eigene Dokumente\Visual Studio 2010\Forms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\_06_Heizanlage.Properties.Resources.resources
 H:\Eigene Dokumente\Visual Studio 2010\Forms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\06_Heizanlage.csproj.GenerateResource.Cache
 H:\Eigene Dokumente\Visual Studio 2010\Forms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\_06_Heizanlage.StartScreen.resources
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\06_Heizanlage.exe
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\06_Heizanlage.pdb
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\bin\Debug\06_Heizanlage.exe
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\bin\Debug\06_Heizanlage.pdb
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\_06_Heizanlage.Form1.resources
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\_06_Heizanlage.House.resources
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\_06_Heizanlage.Properties.Resources.resources
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\_06_Heizanlage.StartScreen.resources
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\06_Heizanlage.csproj.GenerateResource.Cache

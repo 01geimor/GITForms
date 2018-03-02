@@ -7,6 +7,7 @@ namespace _06_Heizanlage
 {
     static class Program
     {
+        public static int houses;
         /// <summary>
         /// Der Haupteinstiegspunkt für die Anwendung.
         /// </summary>
