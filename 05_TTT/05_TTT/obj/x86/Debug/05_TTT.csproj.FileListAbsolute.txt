@@ -1,0 +1,17 @@
+C:\Users\01geimor\AppData\Local\Temporary Projects\05_TTT\obj\x86\Debug\_05_TTT.Form1.resources
+C:\Users\01geimor\AppData\Local\Temporary Projects\05_TTT\obj\x86\Debug\_05_TTT.Properties.Resources.resources
+C:\Users\01geimor\AppData\Local\Temporary Projects\05_TTT\obj\x86\Debug\05_TTT.csproj.GenerateResource.Cache
+C:\Users\01geimor\AppData\Local\Temporary Projects\05_TTT\bin\Debug\05_TTT.exe
+C:\Users\01geimor\AppData\Local\Temporary Projects\05_TTT\bin\Debug\05_TTT.pdb
+C:\Users\01geimor\AppData\Local\Temporary Projects\05_TTT\obj\x86\Debug\05_TTT.exe
+C:\Users\01geimor\AppData\Local\Temporary Projects\05_TTT\obj\x86\Debug\05_TTT.pdb
+C:\Users\01geimor\AppData\Local\Temporary Projects\05_TTT\obj\x86\Debug\_05_TTT.X.resources
+H:\Eigene Dokumente\Visual Studio 2010\Forms\05_TTT\05_TTT\obj\x86\Debug\05_TTT.exe
+H:\Eigene Dokumente\Visual Studio 2010\Forms\05_TTT\05_TTT\obj\x86\Debug\05_TTT.pdb
+H:\Eigene Dokumente\Visual Studio 2010\Forms\05_TTT\05_TTT\bin\Debug\05_TTT.exe
+H:\Eigene Dokumente\Visual Studio 2010\Forms\05_TTT\05_TTT\bin\Debug\05_TTT.pdb
+H:\Eigene Dokumente\Visual Studio 2010\Forms\05_TTT\05_TTT\obj\x86\Debug\_05_TTT.Form1.resources
+H:\Eigene Dokumente\Visual Studio 2010\Forms\05_TTT\05_TTT\obj\x86\Debug\_05_TTT.Properties.Resources.resources
+H:\Eigene Dokumente\Visual Studio 2010\Forms\05_TTT\05_TTT\obj\x86\Debug\_05_TTT.X.resources
+H:\Eigene Dokumente\Visual Studio 2010\Forms\05_TTT\05_TTT\obj\x86\Debug\05_TTT.csproj.GenerateResource.Cache
+H:\Eigene Dokumente\Visual Studio 2010\Forms\05_TTT\05_TTT\obj\x86\Debug\05_TTT.csprojResolveAssemblyReference.cache

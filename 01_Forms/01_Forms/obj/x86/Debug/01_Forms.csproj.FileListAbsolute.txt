@@ -1,0 +1,7 @@
+C:\Users\01geimor\AppData\Local\Temporary Projects\01_Forms\bin\Debug\01_Forms.exe
+C:\Users\01geimor\AppData\Local\Temporary Projects\01_Forms\bin\Debug\01_Forms.pdb
+C:\Users\01geimor\AppData\Local\Temporary Projects\01_Forms\obj\x86\Debug\_01_Forms.Form1.resources
+C:\Users\01geimor\AppData\Local\Temporary Projects\01_Forms\obj\x86\Debug\_01_Forms.Properties.Resources.resources
+C:\Users\01geimor\AppData\Local\Temporary Projects\01_Forms\obj\x86\Debug\01_Forms.csproj.GenerateResource.Cache
+C:\Users\01geimor\AppData\Local\Temporary Projects\01_Forms\obj\x86\Debug\01_Forms.exe
+C:\Users\01geimor\AppData\Local\Temporary Projects\01_Forms\obj\x86\Debug\01_Forms.pdb

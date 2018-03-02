@@ -1,0 +1,11 @@
+C:\Users\01geimor\AppData\Local\Temporary Projects\02_StopUhr\obj\x86\Debug\_02_StopUhr.Form1.resources
+C:\Users\01geimor\AppData\Local\Temporary Projects\02_StopUhr\obj\x86\Debug\_02_StopUhr.Properties.Resources.resources
+C:\Users\01geimor\AppData\Local\Temporary Projects\02_StopUhr\obj\x86\Debug\02_StopUhr.csproj.GenerateResource.Cache
+H:\Eigene Dokumente\Visual Studio 2010\Forms\02_StopUhr\02_StopUhr\bin\Debug\02_StopUhr.exe
+H:\Eigene Dokumente\Visual Studio 2010\Forms\02_StopUhr\02_StopUhr\bin\Debug\02_StopUhr.pdb
+H:\Eigene Dokumente\Visual Studio 2010\Forms\02_StopUhr\02_StopUhr\obj\x86\Debug\_02_StopUhr.Form1.resources
+H:\Eigene Dokumente\Visual Studio 2010\Forms\02_StopUhr\02_StopUhr\obj\x86\Debug\_02_StopUhr.Properties.Resources.resources
+H:\Eigene Dokumente\Visual Studio 2010\Forms\02_StopUhr\02_StopUhr\obj\x86\Debug\02_StopUhr.csproj.GenerateResource.Cache
+H:\Eigene Dokumente\Visual Studio 2010\Forms\02_StopUhr\02_StopUhr\obj\x86\Debug\02_StopUhr.exe
+H:\Eigene Dokumente\Visual Studio 2010\Forms\02_StopUhr\02_StopUhr\obj\x86\Debug\02_StopUhr.pdb
+H:\Eigene Dokumente\Visual Studio 2010\Forms\02_StopUhr\02_StopUhr\obj\x86\Debug\02_StopUhr.csprojResolveAssemblyReference.cache
