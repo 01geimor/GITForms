@@ -19,7 +19,7 @@ namespace _06_Heizanlage
 
         public static void CallToChildThread()
         {
-            Application.Run(new House(1, 1));
+            Application.Run(new House(1));
         }
 
         private void button1_Click(object sender, EventArgs e)

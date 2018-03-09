@@ -24,3 +24,4 @@ H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\obj\
 H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\_06_Heizanlage.Properties.Resources.resources
 H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\_06_Heizanlage.StartScreen.resources
 H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\06_Heizanlage.csproj.GenerateResource.Cache
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\06_Heizanlage\06_Heizanlage\obj\x86\Debug\06_Heizanlage.csprojResolveAssemblyReference.cache

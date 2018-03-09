@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
             // 
             // House
             // 
@@ -42,6 +41,8 @@
         }
 
         #endregion
+
+
 
 
     }

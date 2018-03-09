@@ -19,6 +19,7 @@ namespace _06_Heizanlage
         private void button1_Click(object sender, EventArgs e)
         {
             Program.houses = Convert.ToInt32(comboBox1.Text);
+            this.Close();
         }
 
 
