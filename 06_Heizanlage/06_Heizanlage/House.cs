@@ -20,6 +20,12 @@ namespace _06_Heizanlage
         {
             Builder b = new Builder(100);
             Label[] l;
+            GroupBox gb = new GroupBox();
+
+            
+            gb = b.Box(0);
+            l = b.Text(ref gb, 0);
+            Controls.Add(gb);
 
             InitializeComponent();
         }

@@ -15,6 +15,7 @@ namespace _06_Heizanlage
         {
             this.verschiebung = verschiebung;
         }
+
         #region Labels
         private GroupBox groupBox1;
         private ProgressBar progressBar1;
@@ -23,6 +24,7 @@ namespace _06_Heizanlage
         private Label label2;
         private Label label1;
         #endregion
+
         private int verschiebung;
 
         private void Generator(int i)
@@ -78,10 +80,14 @@ namespace _06_Heizanlage
 
         #region Generator
 
-        public GroupBox Box()
+        public GroupBox Box(int i)
         {
             GroupBox gb = new GroupBox();
 
+            gb.Location = new Point(20, 20);
+            gb.Name = "gb_House" + i;
+            gb.Size = new Size(400, 150);
+            gb.Text = "Wohnung " + (i+1);
 
             return gb;
         }
