@@ -1,0 +1,7 @@
+C:\Users\01geimor\AppData\Local\Temporary Projects\09_Arduino\bin\Debug\09_Arduino.exe
+C:\Users\01geimor\AppData\Local\Temporary Projects\09_Arduino\bin\Debug\09_Arduino.pdb
+C:\Users\01geimor\AppData\Local\Temporary Projects\09_Arduino\obj\x86\Debug\_09_Arduino.Properties.Resources.resources
+C:\Users\01geimor\AppData\Local\Temporary Projects\09_Arduino\obj\x86\Debug\09_Arduino.csproj.GenerateResource.Cache
+C:\Users\01geimor\AppData\Local\Temporary Projects\09_Arduino\obj\x86\Debug\09_Arduino.exe
+C:\Users\01geimor\AppData\Local\Temporary Projects\09_Arduino\obj\x86\Debug\09_Arduino.pdb
+C:\Users\01geimor\AppData\Local\Temporary Projects\09_Arduino\obj\x86\Debug\_09_Arduino.lstb_Ausgabe.resources
