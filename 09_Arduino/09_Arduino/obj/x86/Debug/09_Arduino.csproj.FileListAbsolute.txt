@@ -5,3 +5,11 @@ C:\Users\01geimor\AppData\Local\Temporary Projects\09_Arduino\obj\x86\Debug\09_A
 C:\Users\01geimor\AppData\Local\Temporary Projects\09_Arduino\obj\x86\Debug\09_Arduino.exe
 C:\Users\01geimor\AppData\Local\Temporary Projects\09_Arduino\obj\x86\Debug\09_Arduino.pdb
 C:\Users\01geimor\AppData\Local\Temporary Projects\09_Arduino\obj\x86\Debug\_09_Arduino.lstb_Ausgabe.resources
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\obj\x86\Debug\09_Arduino.exe
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\obj\x86\Debug\09_Arduino.pdb
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\bin\Debug\09_Arduino.exe
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\bin\Debug\09_Arduino.pdb
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\obj\x86\Debug\_09_Arduino.Properties.Resources.resources
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\obj\x86\Debug\09_Arduino.csproj.GenerateResource.Cache
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\obj\x86\Debug\09_Arduino.csprojResolveAssemblyReference.cache
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\obj\x86\Debug\_09_Arduino.lbl_G.resources
