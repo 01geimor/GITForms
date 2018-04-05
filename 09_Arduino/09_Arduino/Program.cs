@@ -15,7 +15,7 @@ namespace _09_Arduino
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new lbl_G());
+            Application.Run(new lbl_Refresh());
         }
     }
 }

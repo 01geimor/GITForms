@@ -1,6 +1,6 @@
 ﻿namespace _09_Arduino
 {
-    partial class lbl_G
+    partial class lbl_Refresh
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -51,9 +51,12 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tp_SetRGB = new System.Windows.Forms.TabPage();
             this.tp_Graphics = new System.Windows.Forms.TabPage();
-            this.pb_G = new System.Windows.Forms.PictureBox();
-            this.btn_CreateG = new System.Windows.Forms.Button();
             this.cmb_analogpin = new System.Windows.Forms.ComboBox();
+            this.btn_CreateG = new System.Windows.Forms.Button();
+            this.pb_G = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tb_ValueTimer = new System.Windows.Forms.TrackBar();
             this.gpb_Arduino.SuspendLayout();
             this.gpb_SetRGB.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tb_Blue)).BeginInit();
@@ -63,6 +66,7 @@
             this.tp_SetRGB.SuspendLayout();
             this.tp_Graphics.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_G)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tb_ValueTimer)).BeginInit();
             this.SuspendLayout();
             // 
             // cmb_Baud
@@ -253,13 +257,16 @@
             this.tp_SetRGB.Location = new System.Drawing.Point(4, 22);
             this.tp_SetRGB.Name = "tp_SetRGB";
             this.tp_SetRGB.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_SetRGB.Size = new System.Drawing.Size(593, 239);
+            this.tp_SetRGB.Size = new System.Drawing.Size(593, 285);
             this.tp_SetRGB.TabIndex = 0;
             this.tp_SetRGB.Text = "Set RGB";
             this.tp_SetRGB.UseVisualStyleBackColor = true;
             // 
             // tp_Graphics
             // 
+            this.tp_Graphics.Controls.Add(this.tb_ValueTimer);
+            this.tp_Graphics.Controls.Add(this.label4);
+            this.tp_Graphics.Controls.Add(this.label2);
             this.tp_Graphics.Controls.Add(this.cmb_analogpin);
             this.tp_Graphics.Controls.Add(this.btn_CreateG);
             this.tp_Graphics.Controls.Add(this.pb_G);
@@ -271,14 +278,15 @@
             this.tp_Graphics.Text = "Graphics";
             this.tp_Graphics.UseVisualStyleBackColor = true;
             // 
-            // pb_G
+            // cmb_analogpin
             // 
-            this.pb_G.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb_G.Location = new System.Drawing.Point(3, 6);
-            this.pb_G.Name = "pb_G";
-            this.pb_G.Size = new System.Drawing.Size(512, 270);
-            this.pb_G.TabIndex = 0;
-            this.pb_G.TabStop = false;
+            this.cmb_analogpin.FormattingEnabled = true;
+            this.cmb_analogpin.Items.AddRange(new object[] {
+            "A0"});
+            this.cmb_analogpin.Location = new System.Drawing.Point(516, 49);
+            this.cmb_analogpin.Name = "cmb_analogpin";
+            this.cmb_analogpin.Size = new System.Drawing.Size(71, 21);
+            this.cmb_analogpin.TabIndex = 2;
             // 
             // btn_CreateG
             // 
@@ -290,17 +298,46 @@
             this.btn_CreateG.UseVisualStyleBackColor = true;
             this.btn_CreateG.Click += new System.EventHandler(this.btn_CreateG_Click);
             // 
-            // cmb_analogpin
+            // pb_G
             // 
-            this.cmb_analogpin.FormattingEnabled = true;
-            this.cmb_analogpin.Items.AddRange(new object[] {
-            "A0"});
-            this.cmb_analogpin.Location = new System.Drawing.Point(516, 37);
-            this.cmb_analogpin.Name = "cmb_analogpin";
-            this.cmb_analogpin.Size = new System.Drawing.Size(71, 21);
-            this.cmb_analogpin.TabIndex = 2;
+            this.pb_G.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pb_G.Location = new System.Drawing.Point(3, 6);
+            this.pb_G.Name = "pb_G";
+            this.pb_G.Size = new System.Drawing.Size(512, 270);
+            this.pb_G.TabIndex = 0;
+            this.pb_G.TabStop = false;
             // 
-            // lbl_G
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(521, 33);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "AnalogPin";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(517, 91);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(70, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Refresh Time";
+            // 
+            // tb_ValueTimer
+            // 
+            this.tb_ValueTimer.Location = new System.Drawing.Point(531, 107);
+            this.tb_ValueTimer.Maximum = 100;
+            this.tb_ValueTimer.Minimum = 1;
+            this.tb_ValueTimer.Name = "tb_ValueTimer";
+            this.tb_ValueTimer.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.tb_ValueTimer.Size = new System.Drawing.Size(45, 169);
+            this.tb_ValueTimer.TabIndex = 5;
+            this.tb_ValueTimer.Value = 100;
+            this.tb_ValueTimer.Scroll += new System.EventHandler(this.tb_ValueTimer_Scroll);
+            // 
+            // lbl_Refresh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -312,7 +349,7 @@
             this.Controls.Add(this.cmb_COM);
             this.Controls.Add(this.gpb_Arduino);
             this.Controls.Add(this.cmb_Baud);
-            this.Name = "lbl_G";
+            this.Name = "lbl_Refresh";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Arduino_Load);
             this.gpb_Arduino.ResumeLayout(false);
@@ -325,7 +362,9 @@
             this.tabControl1.ResumeLayout(false);
             this.tp_SetRGB.ResumeLayout(false);
             this.tp_Graphics.ResumeLayout(false);
+            this.tp_Graphics.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_G)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tb_ValueTimer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -358,6 +397,9 @@
         private System.Windows.Forms.ComboBox cmb_analogpin;
         private System.Windows.Forms.Button btn_CreateG;
         private System.Windows.Forms.PictureBox pb_G;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TrackBar tb_ValueTimer;
     }
 }
 

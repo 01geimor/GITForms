@@ -12,4 +12,4 @@ H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\bin\Debug\
 H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\obj\x86\Debug\_09_Arduino.Properties.Resources.resources
 H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\obj\x86\Debug\09_Arduino.csproj.GenerateResource.Cache
 H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\obj\x86\Debug\09_Arduino.csprojResolveAssemblyReference.cache
-H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\obj\x86\Debug\_09_Arduino.lbl_G.resources
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\09_Arduino\09_Arduino\obj\x86\Debug\_09_Arduino.lbl_Refresh.resources

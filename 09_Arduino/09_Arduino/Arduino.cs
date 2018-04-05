@@ -11,7 +11,7 @@ using System.Threading;
 
 namespace _09_Arduino
 {
-    public partial class lbl_G : Form
+    public partial class lbl_Refresh : Form
     {
         string rgb = "setrgb#";
         string analogRead = "getvalue#";
@@ -20,8 +20,11 @@ namespace _09_Arduino
         Pen p;
         bool graphic;
         float drawx=1;
+        float drawx2 = 1;
+        float drawy2 = 1;
+        bool gfirst = true;
 
-        public lbl_G()
+        public lbl_Refresh()
         {
             InitializeComponent();
         }
@@ -129,7 +132,7 @@ namespace _09_Arduino
                 }
                 catch
                 {
-                    MessageBox.Show("Fehlerhafte Daten wurden eingelesen");
+
                 }
             }
             else
@@ -151,20 +154,38 @@ namespace _09_Arduino
                 MessageBox.Show("Eingabe fehlerhaft! Analogpin A0 wurde ausgewählt");
             }
             g = pb_G.CreateGraphics();
-            p = new Pen(Color.Black, 3);
+            p = new Pen(Color.Black, 2);
             graphic = true;
         }
 
         private void Draw(int gvalue)
         {
-            if (drawx == pb_G.Width)
+            if (drawx > pb_G.Width)
             {
-                g.ResetClip();
+                g.Clear(Color.White);
                 drawx=1;
+                drawx2 = 1;
             }
-            float gvaluen = ((gvalue / 4)*-1)+260;
-            g.DrawLine(p, drawx, gvaluen, drawx + 0.1f, gvaluen);
-            drawx += 1;
+
+            
+
+            float gvaluen = ((gvalue / 4)*-1)+(pb_G.Height-10);
+
+            if (gfirst)
+            {
+                drawy2 = gvaluen;
+                gfirst = false;
+            }
+
+            g.DrawLine(p, drawx2, drawy2, drawx, gvaluen);
+            drawx2 = drawx;
+            drawy2 = gvaluen;
+            drawx += 0.3f;
+        }
+
+        private void tb_ValueTimer_Scroll(object sender, EventArgs e)
+        {
+            timer1.Interval = tb_ValueTimer.Value;
         }
     }
 }
