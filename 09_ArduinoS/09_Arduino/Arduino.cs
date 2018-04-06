@@ -118,7 +118,7 @@ namespace _09_Arduino
             do
             {
                 Thread.Sleep(1);
-                s = sP1.ReadExisting();
+                 s = sP1.ReadExisting();
                 try1++;
             } while (s == ""|| try1 < 10);
 

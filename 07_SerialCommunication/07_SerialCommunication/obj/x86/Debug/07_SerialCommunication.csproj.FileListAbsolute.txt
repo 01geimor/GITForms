@@ -1,0 +1,6 @@
+D:\Visual Projects\Moges Zuhause Projekte\07_SerialCommunication\07_SerialCommunication\bin\Debug\07_SerialCommunication.exe
+D:\Visual Projects\Moges Zuhause Projekte\07_SerialCommunication\07_SerialCommunication\bin\Debug\07_SerialCommunication.pdb
+D:\Visual Projects\Moges Zuhause Projekte\07_SerialCommunication\07_SerialCommunication\obj\x86\Debug\07_SerialCommunication.exe
+D:\Visual Projects\Moges Zuhause Projekte\07_SerialCommunication\07_SerialCommunication\obj\x86\Debug\07_SerialCommunication.pdb
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\07_SerialCommunication\07_SerialCommunication\obj\x86\Debug\07_SerialCommunication.exe
+H:\Eigene Dokumente\Visual Studio 2010\GitForms\07_SerialCommunication\07_SerialCommunication\obj\x86\Debug\07_SerialCommunication.pdb

@@ -1,0 +1,4 @@
+C:\Users\mogei\AppData\Local\Temporary Projects\01_SerialComunication\bin\Debug\01_SerialComunication.exe
+C:\Users\mogei\AppData\Local\Temporary Projects\01_SerialComunication\bin\Debug\01_SerialComunication.pdb
+C:\Users\mogei\AppData\Local\Temporary Projects\01_SerialComunication\obj\x86\Debug\01_SerialComunication.exe
+C:\Users\mogei\AppData\Local\Temporary Projects\01_SerialComunication\obj\x86\Debug\01_SerialComunication.pdb
