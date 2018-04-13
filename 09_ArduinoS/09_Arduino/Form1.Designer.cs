@@ -51,12 +51,21 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tp_SetRGB = new System.Windows.Forms.TabPage();
             this.tp_Graphics = new System.Windows.Forms.TabPage();
+            this.tb_ValueTimer = new System.Windows.Forms.TrackBar();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.cmb_analogpin = new System.Windows.Forms.ComboBox();
             this.btn_CreateG = new System.Windows.Forms.Button();
             this.pb_G = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.tb_ValueTimer = new System.Windows.Forms.TrackBar();
+            this.tp_Diode = new System.Windows.Forms.TabPage();
+            this.btn_DStart = new System.Windows.Forms.Button();
+            this.pb_Ddraw = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txt_DR = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cmb_DVPin = new System.Windows.Forms.ComboBox();
+            this.cmb_DMPin = new System.Windows.Forms.ComboBox();
             this.gpb_Arduino.SuspendLayout();
             this.gpb_SetRGB.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tb_Blue)).BeginInit();
@@ -65,8 +74,10 @@
             this.tabControl1.SuspendLayout();
             this.tp_SetRGB.SuspendLayout();
             this.tp_Graphics.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_G)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb_ValueTimer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_G)).BeginInit();
+            this.tp_Diode.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Ddraw)).BeginInit();
             this.SuspendLayout();
             // 
             // cmb_Baud
@@ -245,6 +256,7 @@
             // 
             this.tabControl1.Controls.Add(this.tp_SetRGB);
             this.tabControl1.Controls.Add(this.tp_Graphics);
+            this.tabControl1.Controls.Add(this.tp_Diode);
             this.tabControl1.Location = new System.Drawing.Point(36, 208);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -278,6 +290,36 @@
             this.tp_Graphics.Text = "Graphics";
             this.tp_Graphics.UseVisualStyleBackColor = true;
             // 
+            // tb_ValueTimer
+            // 
+            this.tb_ValueTimer.Location = new System.Drawing.Point(531, 107);
+            this.tb_ValueTimer.Maximum = 100;
+            this.tb_ValueTimer.Minimum = 1;
+            this.tb_ValueTimer.Name = "tb_ValueTimer";
+            this.tb_ValueTimer.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.tb_ValueTimer.Size = new System.Drawing.Size(45, 169);
+            this.tb_ValueTimer.TabIndex = 5;
+            this.tb_ValueTimer.Value = 100;
+            this.tb_ValueTimer.Scroll += new System.EventHandler(this.tb_ValueTimer_Scroll);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(517, 91);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(70, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Refresh Time";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(521, 33);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "AnalogPin";
+            // 
             // cmb_analogpin
             // 
             this.cmb_analogpin.FormattingEnabled = true;
@@ -307,35 +349,105 @@
             this.pb_G.TabIndex = 0;
             this.pb_G.TabStop = false;
             // 
-            // label2
+            // tp_Diode
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(521, 33);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "AnalogPin";
+            this.tp_Diode.Controls.Add(this.btn_DStart);
+            this.tp_Diode.Controls.Add(this.pb_Ddraw);
+            this.tp_Diode.Controls.Add(this.label7);
+            this.tp_Diode.Controls.Add(this.label6);
+            this.tp_Diode.Controls.Add(this.txt_DR);
+            this.tp_Diode.Controls.Add(this.label5);
+            this.tp_Diode.Controls.Add(this.cmb_DVPin);
+            this.tp_Diode.Controls.Add(this.cmb_DMPin);
+            this.tp_Diode.Location = new System.Drawing.Point(4, 22);
+            this.tp_Diode.Name = "tp_Diode";
+            this.tp_Diode.Padding = new System.Windows.Forms.Padding(3);
+            this.tp_Diode.Size = new System.Drawing.Size(593, 285);
+            this.tp_Diode.TabIndex = 2;
+            this.tp_Diode.Text = "Diode";
+            this.tp_Diode.UseVisualStyleBackColor = true;
             // 
-            // label4
+            // btn_DStart
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(517, 91);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Refresh Time";
+            this.btn_DStart.Location = new System.Drawing.Point(516, 88);
+            this.btn_DStart.Name = "btn_DStart";
+            this.btn_DStart.Size = new System.Drawing.Size(71, 23);
+            this.btn_DStart.TabIndex = 11;
+            this.btn_DStart.Text = "Start";
+            this.btn_DStart.UseVisualStyleBackColor = true;
+            this.btn_DStart.Click += new System.EventHandler(this.btn_DStart_Click);
             // 
-            // tb_ValueTimer
+            // pb_Ddraw
             // 
-            this.tb_ValueTimer.Location = new System.Drawing.Point(531, 107);
-            this.tb_ValueTimer.Maximum = 100;
-            this.tb_ValueTimer.Minimum = 1;
-            this.tb_ValueTimer.Name = "tb_ValueTimer";
-            this.tb_ValueTimer.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.tb_ValueTimer.Size = new System.Drawing.Size(45, 169);
-            this.tb_ValueTimer.TabIndex = 5;
-            this.tb_ValueTimer.Value = 100;
-            this.tb_ValueTimer.Scroll += new System.EventHandler(this.tb_ValueTimer_Scroll);
+            this.pb_Ddraw.Location = new System.Drawing.Point(4, 4);
+            this.pb_Ddraw.Name = "pb_Ddraw";
+            this.pb_Ddraw.Size = new System.Drawing.Size(450, 275);
+            this.pb_Ddraw.TabIndex = 7;
+            this.pb_Ddraw.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(460, 64);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(50, 13);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Mess Pin";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(466, 37);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(44, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Vcc Pin";
+            // 
+            // txt_DR
+            // 
+            this.txt_DR.Location = new System.Drawing.Point(517, 11);
+            this.txt_DR.Name = "txt_DR";
+            this.txt_DR.Size = new System.Drawing.Size(70, 20);
+            this.txt_DR.TabIndex = 4;
+            this.txt_DR.Text = "1000";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(495, 14);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(15, 13);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "R";
+            // 
+            // cmb_DVPin
+            // 
+            this.cmb_DVPin.Enabled = false;
+            this.cmb_DVPin.FormattingEnabled = true;
+            this.cmb_DVPin.Items.AddRange(new object[] {
+            "A0",
+            "A1",
+            "A2",
+            "A3"});
+            this.cmb_DVPin.Location = new System.Drawing.Point(516, 34);
+            this.cmb_DVPin.Name = "cmb_DVPin";
+            this.cmb_DVPin.Size = new System.Drawing.Size(71, 21);
+            this.cmb_DVPin.TabIndex = 2;
+            this.cmb_DVPin.Text = "D5";
+            // 
+            // cmb_DMPin
+            // 
+            this.cmb_DMPin.FormattingEnabled = true;
+            this.cmb_DMPin.Items.AddRange(new object[] {
+            "A0",
+            "A1",
+            "A2",
+            "A3"});
+            this.cmb_DMPin.Location = new System.Drawing.Point(516, 61);
+            this.cmb_DMPin.Name = "cmb_DMPin";
+            this.cmb_DMPin.Size = new System.Drawing.Size(71, 21);
+            this.cmb_DMPin.TabIndex = 1;
+            this.cmb_DMPin.Text = "A2";
             // 
             // lbl_Refresh
             // 
@@ -363,8 +475,11 @@
             this.tp_SetRGB.ResumeLayout(false);
             this.tp_Graphics.ResumeLayout(false);
             this.tp_Graphics.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_G)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb_ValueTimer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_G)).EndInit();
+            this.tp_Diode.ResumeLayout(false);
+            this.tp_Diode.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Ddraw)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -400,6 +515,15 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TrackBar tb_ValueTimer;
+        private System.Windows.Forms.TabPage tp_Diode;
+        private System.Windows.Forms.Button btn_DStart;
+        private System.Windows.Forms.PictureBox pb_Ddraw;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txt_DR;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox cmb_DVPin;
+        private System.Windows.Forms.ComboBox cmb_DMPin;
     }
 }
 
